@@ -9,11 +9,13 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertThat;
 
 /**
+ * Common spec that each implementation of the FizzBuzzer API.
+ *
  * @author gareth
  */
-public class FizzBuzzerTest {
+public abstract class FizzBuzzerSpec {
 
-    FizzBuzzer testObject = new JavaFizzBuzzer();
+    protected FizzBuzzer testObject;
 
     // method name convention <name of method>_<test scenario>_<expectation>
 
