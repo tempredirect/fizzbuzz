@@ -1,1 +1,12 @@
-This file was created by IntelliJ IDEA 10.5.1 for binding GitHub repository
+Simple implementation of the FizzBuzz problem:
+
+Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and
+ for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+
+To build and test:
+
+> mvn clean package
+
+Run the FizzBuzz application:
+
+> java -cp target/fizzbuzz-1.0-SNAPSHOT.jar com.logicalpractice.fizzbuzz.FizzBuzz
